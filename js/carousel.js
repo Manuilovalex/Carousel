@@ -59,9 +59,9 @@ Carousel.prototype = {
   },
 
   _initListeners() {
-    this.pauseBtn.addEventListener('click', this.pausePlay.bind(this));
-    this.nextBtn.addEventListener('click', this.next.bind(this));
-    this.prevBtn.addEventListener('click', this.prev.bind(this));
+    this.pauseBtn.addEventListener('click', () => this.pausePlay(this));
+    this.nextBtn.addEventListener('click', () => this.next(this));
+    this.prevBtn.addEventListener('click', () => this.prev(this));
     this.indicatorsContainer.addEventListener(
       'click',
       this._indicateHandler.bind(this)
