@@ -28,13 +28,13 @@ class Carousel {
     this.startPosX = null;
     this.endPosX = null;
     this.FA_PAUSE =
-      '<img width="40px" src="assets/img/icons/icons8-pause-64.png" alt="pause"></img>';
+      '<img width="40px" src="Carousel/assets/img/icons/icons8-pause-64.png" alt="pause"></img>';
     this.FA_PLAY =
-      '<img width="40px" src="assets/img/icons/icons8-play-64.png" alt="play"></img>';
+      '<img width="40px" src="Carousel/assets/img/icons/icons8-play-64.png" alt="play"></img>';
     this.FA_PREV =
-      '<img width="40px"  src="assets/img/icons/icons8-prev-64.png" alt="prev"></img>';
+      '<img width="40px"  src="Carousel/assets/img/icons/icons8-prev-64.png" alt="prev"></img>';
     this.FA_NEXT =
-      '<img width="40px" src="assets/img/icons/icons8-next-64.png" alt="next"></img>';
+      '<img width="40px" src="Carousel/assets/img/icons/icons8-next-64.png" alt="next"></img>';
   }
 
   _initControls() {
