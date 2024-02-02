@@ -3,8 +3,8 @@ import Carousel from './carousel.js';
 class SwipeCarousel extends Carousel {
   constructor(...args) {
     super(...args);
-    this.slidesContainer = this.slideItems[0].parentNode
-    console.log(this.slidesItems)
+    this.slidesContainer = this.slideItems[0].parentNode;
+    console.log(this.slidesItems);
     // console.log(args)
   }
 
