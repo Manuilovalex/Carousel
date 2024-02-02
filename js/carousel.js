@@ -28,11 +28,11 @@ class Carousel {
     this.startPosX = null;
     this.endPosX = null;
     this.FA_PAUSE =
-      '<img width="40px" src="../assets/img/icons/icons8-пауза-64.png" alt="pause">';
+      '<img width="40px" src="../assets/img/icons/icons8-пауза-64.png" alt="pause"></img>';
     this.FA_PLAY =
       '<img width="40px" src="../assets/img/icons/icons8-воспроизведение-64.png" alt="play"></img>';
     this.FA_PREV =
-      '<img width="40px"  src="../assets/img/icons/icons8-перемотка-назад-64.png" alt="prev">';
+      '<img width="40px"  src="../assets/img/icons/icons8-перемотка-назад-64.png" alt="prev"></img>';
     this.FA_NEXT =
       '<img width="40px" src="../assets/img/icons/icons8-быстрая-перемотка-вперед-64.png" alt="next"></img>';
   }
