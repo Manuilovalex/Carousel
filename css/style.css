@@ -43,7 +43,7 @@ a {
   height: 100%;
   opacity: 0;
   z-index: -999;
-  transition: opacity 0.25s;
+  transition: opacity 1s, background-image 0.9s;
 }
 
 .active {
@@ -199,6 +199,6 @@ just for appearance; change whatever you want
 
 @media screen and (max-width: 500px) {
   .container {
-  width: 100vw;/* Изменяем стили при меньшей ширине экрана */
+    width: 100vw; /* Изменяем стили при меньшей ширине экрана */
   }
 }
