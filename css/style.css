@@ -7,6 +7,7 @@ these make the slideshow work
 }
 
 body {
+  margin: 0px;
   background-image: url(../assets/img/pictures/4200x2800_0xac120004_16308552871674837425.jpeg);
   font-family: Arial, Helvetica, sans-serif;
   filter: saturate(0.5);
@@ -91,7 +92,7 @@ just for appearance; change whatever you want
 
 .container {
   min-width: 350px;
-  width: 70vw;
+  width: 80vw;
   background-image: url(../assets/img/pictures/light-sand-with-small-dunes-on-the-beach-as-a-background-the-perfect-backdrop-for-your-presentation_380694-11278.avif);
   background-position: center;
   background-size: cover;
@@ -102,7 +103,6 @@ just for appearance; change whatever you want
 .header {
   border-bottom: 4px solid rgb(4, 229, 245);
   gap: 20px;
-  margin: 10px;
   padding: 0.5rem;
   cursor: pointer;
   display: flex;
@@ -180,7 +180,6 @@ just for appearance; change whatever you want
 .footer {
   border-top: 4px solid rgb(4, 229, 245);
   padding: 20px;
-  margin-top: 20px;
   display: flex;
   justify-content: center;
   list-style: none;
@@ -193,9 +192,13 @@ just for appearance; change whatever you want
 
 .text-footer {
   padding-bottom: 20px;
+  margin: 0px;
   display: flex;
   justify-content: center;
 }
 
-
-
+@media screen and (max-width: 500px) {
+  .container {
+  width: 100vw;/* Изменяем стили при меньшей ширине экрана */
+  }
+}
