@@ -197,7 +197,7 @@ just for appearance; change whatever you want
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 380px) {
   .container {
     width: 100%;
   }
