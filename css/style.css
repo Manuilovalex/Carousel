@@ -90,7 +90,7 @@ just for appearance; change whatever you want
 /*  project customization */
 
 .container {
-  min-width: 450px;
+  min-width: 420px;
   width: 70vw;
   background-image: url(../assets/img/pictures/light-sand-with-small-dunes-on-the-beach-as-a-background-the-perfect-backdrop-for-your-presentation_380694-11278.avif);
   background-position: center;
@@ -197,8 +197,4 @@ just for appearance; change whatever you want
   justify-content: center;
 }
 
-@media screen and (max-width: 380px) {
-  .container {
-    width: 100%;
-  }
-}
+
